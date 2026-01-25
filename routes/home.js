@@ -1,9 +1,10 @@
-import { name } from 'ejs';
 import { Router } from 'express';
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.render('home', {title: 'Home', name: 'Oluwatobi Adelabu'});
+  res.render('home', {
+    title: 'Home', 
+    name: 'Samuel Boman'});
 });
 
 export default router

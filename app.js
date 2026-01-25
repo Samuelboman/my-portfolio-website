@@ -5,12 +5,11 @@ import aboutRoutes from "./routes/about.js";
 import homeRoutes from "./routes/home.js";
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.set('views', './views');
-
 
 app.use("/", homeRoutes);
 app.use("/about", aboutRoutes);

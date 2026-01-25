@@ -237,15 +237,16 @@
 
         /* Primary Button (View My Work) */
         .btn-primary {
-            background: #00C389;
-            color: #ffffff;
-            box-shadow: 0 5px 20px rgba(0, 195, 137, 0.3);
+              background: transparent;
+            color: #e0e0e0;
+            border: 2px solid #4a5568;
         }
 
         .btn-primary:hover {
-            background: #00a876;
+            border-color: #00C389;
+            color: #00C389;
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0, 195, 137, 0.4);
+            box-shadow: 0 5px 20px rgba(0, 195, 137, 0.2);
         }
 
         /* Secondary Buttons (Get In Touch, Download CV) */
@@ -965,15 +966,16 @@
         }
 
         .demo-btn {
-            background: #00C389;
-            color: #ffffff;
-            border: none;
+            background: transparent;
+            color: #e0e0e0;
+            border: 2px solid #4a5568;
         }
 
         .demo-btn:hover {
-            background: #00a876;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 195, 137, 0.3);
+            border-color: #00C389;
+            color: #00C389;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0, 195, 137, 0.2);
         }
 
         .github-btn {

@@ -1,4 +1,4 @@
-<%- include('header') %>
+<%- include("partials/header") %>
 
 <section id="projects" class="projects-section">
     <h2><%= title %></h2>
@@ -7,7 +7,7 @@
         <!-- Project 1: E-commerce Platform -->
         <div class="project-card">
             <div class="project-image">
-                <img src="/safe-trip app img.jpeg" alt="safet-trip app">
+                <img src="/images/safe-trip app img.jpeg" alt="safet-trip app">
             </div>
             <div class="project-content">
                 <h3>Safe-Trip mobile system</h3>
@@ -32,23 +32,22 @@
         <!-- Project 2: Education Website -->
         <div class="project-card">
             <div class="project-image">
-                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop" alt="Education Platform">
+                <img src="/images/timetracking-dashboard img.jpeg" alt="Time-tracking Dashboard">
             </div>
             <div class="project-content">
-                <h3>Education Website</h3>
-                <p>Educational platform featuring course listings, student resources, and interactive learning materials. Built with modern web technologies for optimal user experience.</p>
+                <h3>Frontend UI Project</h3>
+                <p>Responsive interfaces of a Time tracking dashboard.</p>
                     
                 <div class="tech-stack">
                     <span class="tech-tag">React</span>
                     <span class="tech-tag">JavaScript</span>
                     <span class="tech-tag">CSS3</span>
                     <span class="tech-tag">HTML5</span>
-                    <span class="tech-tag">Next.js</span>
+                    
                 </div>
 
                 <div class="project-buttons">
-                    <a href="#" class="project-btn demo-btn">Demo 1</a>
-                    <a href="#" class="project-btn github-btn">
+                    <a href="https://time-tracker-bom.netlify.app/" class="project-btn github-btn">
                         <i class="fab fa-github"></i> GitHub
                     </a>
                 </div>
@@ -58,22 +57,21 @@
         <!-- Project 3: Task Management API -->
         <div class="project-card">
             <div class="project-image">
-                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop" alt="API Development">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop" alt="API Development">
             </div>
             <div class="project-content">
-                <h3>Task Management API</h3>
-                <p>A robust RESTful API for managing tasks, users, and projects with authentication and authorization.</p>
+                <h3>Collaborated On An AI Job Recommendation API</h3>
+                <p>Backend system built with Node.js, Express, and MySQL.</p>
                     
                 <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Django REST Framework</span>
-                    <span class="tech-tag">PostgreSQL</span>
-                    <span class="tech-tag">Docker</span>
-                </div>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">My MySQL</span>
+                </div> 
 
                 <div class="project-buttons">
-                    <a href="#" class="project-btn demo-btn">Demo 1</a>
-                    <a href="#" class="project-btn github-btn">
+                   
+                    <a href="https://github.com/Samuelboman/ai-job-recommendation-system" class="project-btn github-btn">
                         <i class="fab fa-github"></i> GitHub
                     </a>
                 </div>
@@ -86,18 +84,12 @@
                 <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop" alt="Portfolio Website">
             </div>
             <div class="project-content">
-                <h3>Portfolio Website</h3>
-                <p>This very portfolio website, showcasing my skills and projects.</p>
-                    
-                <div class="tech-stack">
-                    <span class="tech-tag">Next.js</span>
-                    <span class="tech-tag">Tailwind CSS</span>
-                    <span class="tech-tag">shadcn/ui</span>
-                </div>
+                <h3>Other projects</h3>
+                <p>To see more of my projects pls click on the button below.</p>
 
                 <div class="project-buttons">
-                    <a href="#" class="project-btn demo-btn">Demo 1</a>
-                    <a href="#" class="project-btn github-btn">
+                    <a href="https://app.netlify.com/teams/samuelboman/projects" class="project-btn demo-btn">See more</a>
+                    <a href="https://github.com/Samuelboman?tab=repositories" class="project-btn github-btn">
                         <i class="fab fa-github"></i> GitHub
                     </a>
                 </div>
@@ -106,4 +98,4 @@
     </div>
 </section>
 
-<%- include('footer') %>
+<%- include("partials/footer") %>
