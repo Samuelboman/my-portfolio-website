@@ -47,10 +47,11 @@ This project demonstrates serving static-like pages using routes and shared layo
 ```bash
 Personal-portfolio-website-project-
 ├── node_modules/           (Contains all external libraries/dependencies)
-├── public/                 (Static assets, accessible directly by the browser)
+├── public/             (Static assets, accessible directly by the browser)
 │   ├── css/                (Stylesheets)
 │   │   └── style.css
-│   └── Adelabu_Oluwatobi.jpg (Image file)
+│   └── images
+
 ├── routes/                 (Contains controller logic for specific paths/resources)
 │   ├── about.js            (Route handler for the /about page)
 │   ├── contact.js          (Route handler for the /contact page)
@@ -89,7 +90,7 @@ npm run start
 ## Installation 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/Olatayo-ife/Personal-portfolio-website-project-.git
+git clone https://github.com/samuelboman/Personal-portfolio-website-project-.git
 cd personal-portfolio-website-project-
 ```
 
@@ -117,27 +118,4 @@ node app.js
 ### 4. Open in browser:
 ```bash
 http://localhost:3000
-```
-
----
-
-## Credits
-- This project was built collaboratively by:
-
-- [Sultan Abdussalam Oriire](https://github.com/Abdussalam-Sultan) 
-- [Osazuwa Matthew Ogbebor](https://github.com/osazuwamatthewogbebor) 
-- [Samuel Boman Elias](https://github.com/Samuelboman)
-- [Timothy Olaleye](https://github.com/Folarex10)
-- [Tobi Emmanuel](https://github.com/Thobiy)
-- [Olatayo Hezekiah Love](https://github.com/Olatayo-ife)
-- [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
-- [Irenikase Samuel Temitope](https://github.com/samuelire)
-- [Noheemat](https://github.com/Tomzyglamstore)
-  
-- Each member actively contributed code, commits, and documentation.
-
----
-## 🙌 Acknowledgements
-- Thanks to Mr Adelabu Oluwatobiloba for proper guidance. 
-- Node.js & Express.js documentation.  
-- EJS template engine.  
+```  
