@@ -3,7 +3,7 @@ import projectRoutes from "./routes/project.js";
 import contactRoutes from "./routes/contact.js";
 import aboutRoutes from "./routes/about.js";
 import homeRoutes from "./routes/home.js";
-
+import path from "path";
 const app = express();
 const port = 5000;
 
