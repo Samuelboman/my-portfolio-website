@@ -90,7 +90,7 @@ npm run start
 ## Installation 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/samuelboman/Personal-portfolio-website-project-.git
+git clone https://github.com/Samuelboman/my-portfolio-website.git
 cd personal-portfolio-website-project-
 ```
 
