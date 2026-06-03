@@ -1009,3 +1009,53 @@ footer p {
   font-size: 14px;
   color: #ccc;
 }
+/* ============================================
+   HAMBURGER MENU
+   ============================================ */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgba(10, 14, 39, 0.98);
+        padding: 20px 0;
+        text-align: center;
+        z-index: 999;
+        gap: 1.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    /* Fix nav direction on mobile */
+    nav {
+        flex-direction: row !important;
+    }
+}
