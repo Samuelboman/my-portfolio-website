@@ -2,67 +2,71 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title><%= title %></title>
-
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
     
- 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- External CSS -->
-    
-    <link rel="stylesheet" href="/css/style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!-- External CSS -->
+        
+        <link rel="stylesheet" href="/css/style.css">
 
-</head>
-<body>
-    <!-- ============================================
-         HEADER & NAVIGATION
-         ============================================ -->
-    <header>
-        <nav>
-    <!-- Logo -->
-    <div class="logo">
-        <a href="/" class="logo"><span>&lt;</span>Dev<span>/&gt;</span></a>
-    </div>
+    </head>
+    <body>
+        <!-- ============================================
+            HEADER & NAVIGATION
+            ============================================ -->
+        <header>
+            <nav>
+            <!-- Logo -->
+                <div class="logo">
+                    <a href="/" class="logo"><span>&lt;</span>Dev<span>/&gt;</span></a>
+                </div>
 
-    <!-- Hamburger Button (mobile only) -->
-    <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+                <!-- Hamburger Button (mobile only) -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
 
-    <!-- Navigation Links -->
-    <ul class="nav-links" id="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
 
-    <!-- Social Media Icons -->
-    <div class="social-icons">
-        <a href="https://github.com/Samuelboman?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/samuel-boman-53036a269" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="mailto:samuelboman10@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-        </a>
-    </div>
-</nav>
-    </header>
+                <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <a href="https://github.com/Samuelboman?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samuel-boman-53036a269" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:samuelboman10@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
 
-</body>
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        </script>
+    </body>
 </html>
