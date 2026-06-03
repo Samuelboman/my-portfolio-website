@@ -1037,13 +1037,16 @@ footer p {
         flex-direction: column;
         position: fixed;
         top: 70px;
-        left: 0;
-        width: 100%;
+        right: 0;          
+        left: auto;        
+        width: 200px;       
         background: rgba(10, 14, 39, 0.98);
         padding: 20px 0;
-        text-align: center;
+        text-align: right;  
+        padding-right: 20px;
         z-index: 999;
         gap: 1.5rem;
+        border-radius: 0 0 0 10px;
     }
 
     .nav-links.active {
